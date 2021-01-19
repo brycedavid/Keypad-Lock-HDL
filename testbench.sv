@@ -137,8 +137,7 @@ module keypad_lock_testbench();
     //**********************************************************
     //Notice here that I manually implement count; this is because
     //it does not detect a change in number because we are setting
-    //it to the same value as before (3). Dr. Wilson said this is
-    //fine.
+    //it to the same value as before (3).
     #100
     key = 0;
     number = 3;
